@@ -8,8 +8,8 @@ public class Main {
 		short edadpersona = 25;
 		int alturaEdificio = 2000;
 		float precioProducto = 350.99f;
-		long numTelefono = 154196217;
-		double calculoCoseno = 0.877582;
+		String numTelefono = "388-4196217";
+		double calculoCoseno = Math.cos(0.5);
 		
 		System.out.println("TIPOS DE DATOS..");
 		System.out.println("Pais : "+nombrepais);
