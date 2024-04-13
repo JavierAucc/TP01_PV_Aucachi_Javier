@@ -62,7 +62,7 @@ public class Pizza {
 	public void mostrarDatos() {
 		System.out.println("\n Diametro : "+this.diametro);
 		System.out.println("\n Ingredientes Especiales : "+this.ingredienteEspecial);
-		System.out.println("\n Precio Pizza : "+calcularPrecio());
+		System.out.println("\n Precio Pizza : $ "+calcularPrecio());
 		calcularArea();
 		System.out.println("\n Area de la Pizza : "+this.area);
 	}

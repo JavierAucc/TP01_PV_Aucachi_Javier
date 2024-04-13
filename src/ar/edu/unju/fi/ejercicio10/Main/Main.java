@@ -12,8 +12,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		while(n != 4) {
-			
-			System.out.println("\n Ingrese Diametro de Pizza");
+			System.out.println("\n Ingrese Diametro de Pizza : 20 - 30 - 40");
 			int diametro = scanner.nextInt();
 			System.out.println("Ingredientes Especiales? True/False");
 			boolean ingredienteEspecial = scanner.nextBoolean();
@@ -24,7 +23,7 @@ public class Main {
 				pizza.setDiametro(diametro);
 				pizza.setIngredienteEspecial(ingredienteEspecial);
 				pizza.calcularPrecio();
-				System.out.println(" *** Pizza N° "+n);
+				System.out.println("\n *** Pizza N° "+n);
 				pizza.mostrarDatos();
 				n++;
 			}

@@ -23,7 +23,7 @@ public class Main {
 			Float precio = scanner.nextFloat();
 			System.out.println("\n Ingrese Descuento del Producto: ");
 			float descuento = scanner.nextFloat();
-			
+			scanner.nextLine();
 			producto.setNombre(nombre);
 			producto.setCodigo(codigo);
 			producto.setPrecio(precio);
@@ -35,7 +35,7 @@ public class Main {
 			
 		}
 		
-		
+		scanner.close();
 	}
 
 }

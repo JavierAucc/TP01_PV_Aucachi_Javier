@@ -17,7 +17,7 @@ public class Main {
 				desc = desc + i;
 			}
 			else {
-				System.out.print(valor+ " ");
+				System.out.print(valor+" ");
 				
 				valor = valor + (40-desc);
 				

@@ -45,7 +45,7 @@ public class Producto {
 	public float calcularDescuento() {
 		float desc = this.descuento;
 		float total = this.precio;
-		if(this.descuento >=0 && this.descuento <= 50) {
+		if(this.descuento >0 && this.descuento <= 50) {
 			float aux = (this.precio*desc)/100;
 			total -= aux;
 		}
@@ -55,7 +55,7 @@ public class Producto {
 	public void MostrarDatos() {
 		System.out.println("\n Producto: "+this.nombre);
 		System.out.println("\n Codigo: "+this.codigo);
-		System.out.println("\n Precio: "+this.precio);
+		System.out.println("\n Precio: $"+this.precio);
 		if(this.descuento<1 || this.descuento>50) {
 		System.out.println("\n Descuento: Sin Descuento");
 		}
